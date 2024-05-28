@@ -16,11 +16,11 @@ buildscript {
             mavenContent { releasesOnly() }
         }
         maven {
-            url "https://repo.spring.io/plugins-release"
+            url "https://maven.aliyun.com/repository/spring-plugin"
             mavenContent { releasesOnly() }
         }
         maven {
-            url "https://repo.spring.io/libs-milestone"
+            url "https://maven.aliyun.com/repository/spring"
             mavenContent { releasesOnly() }
         }
         maven {
@@ -191,7 +191,7 @@ allprojects {
         mavenCentral()
         jcenter()
         maven {
-            url "https://repo.spring.io/libs-milestone"
+            url "https://maven.aliyun.com/repository/spring"
             mavenContent { releasesOnly() }
         }
         maven {
@@ -264,7 +264,7 @@ subprojects {
             mavenContent { releasesOnly() }
         }
         maven {
-            url "https://repo.spring.io/plugins-release/"
+            url "https://maven.aliyun.com/repository/spring-plugin"
             mavenContent { releasesOnly() }
         }
         maven {
@@ -273,7 +273,7 @@ subprojects {
         }
         maven { url "https://repo.spring.io/snapshot/" }
         maven {
-            url "https://repo.spring.io/libs-milestone"
+            url "https://maven.aliyun.com/repository/spring"
             mavenContent { releasesOnly() }
         }
         maven {
